@@ -1,5 +1,14 @@
-🔍 BlackLens: Passive Recon Toolkit
+🔍 BlackLens: Passive Active Recon Toolkit
 BlackLens is a lightweight, modular reconnaissance automation script written in Zsh for passive OSINT investigations. It’s designed for security researchers, bug bounty hunters, and ethical hackers who want to automate the boring and focus on the critical.
+ 
+  
+  echo -e "${CYAN}"
+     '██████╗ ██╗      █████╗  ██████╗██╗  ██╗██╗     ███████╗███╗   ██╗███████╗'
+     '██╔══██╗██║     ██╔══██╗██╔════╝██║ ██╔╝██║     ██╔════╝████╗  ██║██╔════╝'
+     '██████╔╝██║     ███████║██║     █████╔╝ ██║     █████╗  ██╔██╗ ██║███████╗'
+     '██╔══██╗██║     ██╔══██║██║     ██╔═██╗ ██║     ██╔══╝  ██║╚██╗██║╚════██║'
+     '██████╔╝███████╗██║  ██║╚██████╗██║  ██╗███████╗███████╗██║ ╚████║███████║'
+   '╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝'
 
 🚀 Features
 🕵️ Passive WHOIS and DNS enumeration
@@ -73,8 +82,7 @@ Powered by ProjectDiscovery, GoWitness, Subzy, and open-source magic ✨
 🌐 GitHub
 👉 https://github.com/Cipher-Sheild/BlackLens
 
-📌 License
-MIT License
+
 
 ⭐ Star the repo, fork it, and contribute!
 #CyberSecurity #OSINT #Reconnaissance #BlackLens #Infosec #BugBounty
