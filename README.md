@@ -1,5 +1,5 @@
 🔍 BlackLens: Passive Active Recon Toolkit
-BlackLens is a lightweight, modular reconnaissance automation script written in Zsh for passive OSINT investigations. It’s designed for security researchers, bug bounty hunters, and ethical hackers who want to automate the boring and focus on the critical.
+BlackLens is a lightweight, modular reconnaissance automation script written in Zsh for OSINT investigations. It’s designed for security researchers, bug bounty hunters, and ethical hackers who want to automate the boring and focus on the critical.
 
 -----------------------------------------------------------
 🚀 Features
