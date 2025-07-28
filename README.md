@@ -2,18 +2,6 @@
 BlackLens is a lightweight, modular reconnaissance automation script written in Zsh for passive OSINT investigations. It’s designed for security researchers, bug bounty hunters, and ethical hackers who want to automate the boring and focus on the critical.
 
 
-█████╗ ██╗      █████╗  ██████╗██╗  ██╗██╗     ███████╗███╗   ██╗███████╗
-
-██╔══██╗██║     ██╔══██╗██╔════╝██║ ██╔╝██║     ██╔════╝████╗  ██║██╔════╝
-
-██████╔╝██║     ███████║██║     █████╔╝ ██║     █████╗  ██╔██╗ ██║███████╗
-
-██╔══██╗██║     ██╔══██║██║     ██╔═██╗ ██║     ██╔══╝  ██║╚██╗██║╚════██║
-
-██████╔╝███████╗██║  ██║╚██████╗██║  ██╗███████╗███████╗██║ ╚████║███████║
-╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝
-
-
 🚀 Features
 🕵️ Passive WHOIS and DNS enumeration
 
@@ -30,23 +18,15 @@ BlackLens is a lightweight, modular reconnaissance automation script written in 
 📄 Auto-generated HTML report with screenshots and results
 
 ⚙️ Usage
-bash
-Copy
-Edit
-chmod +x blacklens.sh
-./blacklens.sh <domain>
+git clone https://github.com/Cipher-Sheild/BlackLens.git
+cd BlackLens
+chmod +x Blacklens.sh
+./Blacklens.sh <domain>
 Example:
-
-bash
-Copy
-Edit
 ./blacklens.sh vulnweb.com
 Reports will be stored in:
 
-bash
-Copy
-Edit
-/output/<domain>/
+<domain>/report/report.html
 🧰 Requirements
 Make sure the following tools are installed:
 
@@ -64,9 +44,7 @@ jq, whois, dig, host, etc.
 
 Install Go-based tools:
 
-bash
-Copy
-Edit
+---------------------------------------------------------------------
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 go install github.com/sensepost/gowitness@latest
@@ -79,9 +57,7 @@ Test target:
 http://testphp.vulnweb.com
 
 🙌 Credits
-Created by CipherShield
-
-Powered by ProjectDiscovery, GoWitness, Subzy, and open-source magic ✨
+Created by Cipher-Shield
 
 🌐 GitHub
 👉 https://github.com/Cipher-Sheild/BlackLens
